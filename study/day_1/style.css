@@ -1,0 +1,35 @@
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-description {
+    color: #666;
+  }
+  
+  .profile-card .profile-name {
+    color: blue;
+  }
+  
+  .profile-card > .profile-picture {
+    border: 2px solid #007bff;
+  }
+  
+  .profile-name + .profile-description {
+    font-style: italic;
+  }
